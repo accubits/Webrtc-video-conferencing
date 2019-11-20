@@ -1,0 +1,23 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "watch": "watchify public/main.js -o public/bundle.js  "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "simple-peer": "^9.6.1",
+    "socket.io": "^2.3.0",
+    "wrtc": "^0.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "watch": "^1.0.2",
+    "watchify": "^3.11.1"
+  }
+}
