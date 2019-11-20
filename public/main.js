@@ -10,12 +10,12 @@ socket.on('connect', function() {
 
                 iceServers: [
                     {
-                        urls: "stun:viralbot.ml",
+                        urls: "stun:xxx.com",
                         username: "xxx",
                         credential: "xxx"
                     },
                     {
-                        urls: "turn:viralbot.ml",
+                        urls: "turn:xxx.com",
                         username: "xxx",
                         credential: "xxx"
                     }
